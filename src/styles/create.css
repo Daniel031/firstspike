@@ -1,0 +1,41 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.button-send {
+    display: flex;
+}
+
+.button-send input {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.hiperlink {
+    display: flex;
+    justify-content: center;
+}
+
+.border-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.border-table th, .border-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.border-table thead td {
+    background-color: lightgrey;
+}
+  
